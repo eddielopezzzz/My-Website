@@ -1,0 +1,1 @@
+I'm going to implement my personal website in Rails. Why pay for a website when I can create one with Rails. Besides Rails is so much easier. 
