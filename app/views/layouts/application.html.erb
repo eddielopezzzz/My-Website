@@ -15,7 +15,9 @@
           <%= yield %>
         </section>
       </div>
-      <div id="sidebar"></div>
+      <div id="sidebar">
+        <%= render 'layouts/sidebar' %>
+      </div>
     </div>
     <%= render 'layouts/footer' %>
   </div>
