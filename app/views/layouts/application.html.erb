@@ -9,9 +9,15 @@
 <body>
   <div id="container">
     <%= render 'layouts/header' %>
-    <section class="round">
-      <%= yield %>
-    </section>
+    <div id="wrapper">
+      <div id="content">
+        <section class="round">
+          <%= yield %>
+        </section>
+      </div>
+      <div id="sidebar"></div>
+    </div>
+    <%= render 'layouts/footer' %>
   </div>
 </body>
 </html>

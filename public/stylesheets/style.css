@@ -88,12 +88,12 @@ blockquote {
     margin-bottom: 0; 
     color: #333; 
 }
-#header h1 a { 
+#header h1 a{ 
     color: #333; 
     text-shadow: 1px 1px 1px #fff; 
     text-decoration: none; 
 }
-#header h1 span { 
+#header h1 span{ 
     padding-left: 10px; 
     font-size: 11px; 
     color: #777; 
