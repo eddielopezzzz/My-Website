@@ -24,9 +24,13 @@ img { border: none; }
 /* Body
 -------------------------------------------------------------------*/
 body { 
-    font: 12px/18px "Lucida Grande", Verdana, Helvetica, Arial, Geneva, sans-serif; 
+    /*font: 12px/18px "Lucida Grande", Verdana, Helvetica, Arial, Geneva, sans-serif; 
     color: #333; 
-    background: #fafafa url(../images/bg.gif); 
+    background: #fafafa url(../images/bg.gif);*/
+    background: #390803 url(../images/bg2.jpg) no-repeat 50% 0;
+    padding: 0 0 287px;
+    overflow: hidden;
+    min-width: 1146px;
 }
 
 h1, h2, h3, h4, h5,h6 { font-family: "Trebuchet MS", Helvetica, Arial, Geneva, Sans-Serif; font-weight: normal; color: #333; }
@@ -80,7 +84,8 @@ blockquote {
     height: 53px; 
     float: left; 
     background: #fafafa url(../images/header-bg.gif) no-repeat center; 
-    position: relative; 
+    position: relative;
+    border-radius: 10px 10px 0px 0px;
 }
 #header h1 { 
     font: 24px Verdana;
@@ -342,6 +347,7 @@ blockquote {
     clear: both;  
     position: relative;
     background: #fafafa url(../images/footer-bg.gif) no-repeat; 
+    border-radius: 0px 0px 10px 10px;
 }
 #footer a#theme-author { 
     position: absolute; 
