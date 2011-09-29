@@ -87,6 +87,7 @@ blockquote {
     position: relative;
     border-radius: 10px 10px 0px 0px;
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#858585), color-stop(3%, #636363), color-stop(50%, #202020), color-stop(51%, black), color-stop(97%, black), to(#262626));
+    background: -moz-linear-gradient(center top , #424242, #000000) repeat scroll 0 0 transparent;
 }
 #header h1 { 
     font: 24px Verdana;
@@ -350,6 +351,7 @@ blockquote {
     position: relative;
     /*background: #fafafa url(../images/footer-bg.gif) no-repeat; */
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#858585), color-stop(3%, #636363), color-stop(50%, #202020), color-stop(51%, black), color-stop(97%, black), to(#262626));
+    background: -moz-linear-gradient(center top , #424242, #000000) repeat scroll 0 0 transparent;
     border-radius: 0px 0px 10px 10px;
 }
 #footer a#theme-author { 
