@@ -83,9 +83,10 @@ blockquote {
     width: 900px; 
     height: 53px; 
     float: left; 
-    background: #fafafa url(../images/header-bg.gif) no-repeat center; 
+    /*background: #fafafa url(../images/header-bg.gif) no-repeat center; */
     position: relative;
     border-radius: 10px 10px 0px 0px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#858585), color-stop(3%, #636363), color-stop(50%, #202020), color-stop(51%, black), color-stop(97%, black), to(#262626));
 }
 #header h1 { 
     font: 24px Verdana;
@@ -94,14 +95,14 @@ blockquote {
     color: #333; 
 }
 #header h1 a{ 
-    color: #333; 
-    text-shadow: 1px 1px 1px #fff; 
+    color: #fff; 
+    /*text-shadow: 1px 1px 1px #fff; */
     text-decoration: none; 
 }
 #header h1 span{ 
     padding-left: 10px; 
     font-size: 11px; 
-    color: #777; 
+    color: #fff; 
 }
 
 
@@ -133,7 +134,8 @@ blockquote {
     width: 900px;
     float: left; 
     height: 32px; 
-    background: #fafafa url(../images/nav-bg.gif) repeat-x; 
+    /*background: #fafafa url(../images/nav-bg.gif) repeat-x; */
+    background: #FAFAFA url(../images/header-bg.gif) no-repeat center;
     position: relative; 
 }
 #nav ul { 
@@ -145,13 +147,13 @@ blockquote {
 }
 #nav ul li a { 
     font-weight: bold; 
-    text-shadow: 1px 1px 1px #fff; 
+    text-shadow: 5px 5px 5px #fff; 
     text-decoration: none; 
-    color: #555; 
+    color: #555555; 
     line-height: 33px; 
 }
 #nav ul li a:hover { 
-    color: #333; 
+    color: #fff; 
 }
 #nav #feed {  
     position: absolute; 
@@ -346,7 +348,8 @@ blockquote {
     float: left;
     clear: both;  
     position: relative;
-    background: #fafafa url(../images/footer-bg.gif) no-repeat; 
+    /*background: #fafafa url(../images/footer-bg.gif) no-repeat; */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#858585), color-stop(3%, #636363), color-stop(50%, #202020), color-stop(51%, black), color-stop(97%, black), to(#262626));
     border-radius: 0px 0px 10px 10px;
 }
 #footer a#theme-author { 
@@ -359,13 +362,13 @@ blockquote {
 }
 #footer p { 
     line-height: 28px; 
-    color: #333; 
+    color: #fff; 
     padding-left: 15px; 
     font-size: 11px; 
     margin: 0; 
 }
 #footer a { 
-    color: #555;
+    color: #fff;
     text-decoration: underline;
 }
 
