@@ -8,5 +8,4 @@ Website::Application.routes.draw do
 
   root :to => "home#index"
   
-  resources :contact_forms
 end
