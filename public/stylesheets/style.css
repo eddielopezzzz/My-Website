@@ -470,4 +470,12 @@ div.desc
   margin: 2px;
 }
 
+img.gravatar{
+    width: 100px;
+}
+
+ul.jobs{
+   list-style: none !important;
+}
+
 
