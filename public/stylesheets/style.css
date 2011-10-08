@@ -29,7 +29,7 @@ body {
     background: #fafafa url(../images/bg.gif);*/
     background: #390803 url(../images/bg2.jpg) no-repeat 50% 0;
     padding: 0 0 287px;
-    overflow: hidden;
+    overflow: scroll;
     min-width: 1146px;
 }
 
@@ -356,7 +356,9 @@ blockquote {
 #sidebar .block #calendar_wrap table td a { font-weight: bold; }
 
 
-
+div#me {
+    text-align: center;
+}
 /* Footer
 -------------------------------------------------------------------*/
 #footer {
