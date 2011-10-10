@@ -480,4 +480,8 @@ ul.jobs{
    list-style: none !important;
 }
 
+#interest h2, #education h2, #jobs h2{
+    text-align: center;
+}
+
 

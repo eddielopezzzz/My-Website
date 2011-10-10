@@ -10,3 +10,5 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'mail_form'
 
 gem 'gravatar_image_tag', '0.1.0'
+
+gem 'jquery-rails'
