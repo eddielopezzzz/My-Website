@@ -1,28 +1,10 @@
 $(document).ready(function(){
-	function HideAll(){
-		$('#interest').children().next().hide();
-		$('#education').children().next().hide();
-		$('.jobs').hide();
-	}
-	HideAll();
-	$('#interest').click(function() {
-		HideAll();
-		$(this).children().next().fadeIn('slow',function() {
-                        
-                });
-	});
+//Hide (Collapse) the toggle containers on load
+	$(".toggle_container").hide(); 
 
-	$('#education').click(function() {
-		HideAll();
-		$(this).children().next().fadeIn('slow',function() {
-                        
-                });
-	});
-
-	$('#jobs').click(function() {
-		HideAll();
-		$('.jobs').fadeIn('slow',function() {
-                        
-                });
+	//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+	$("h2.trigger").click(function(){
+		$(this).toggleClass("active").next().slideToggle("slow");
+		return false; //Prevent the browser jump to the link anchor
 	});
 });

@@ -1,15 +1,22 @@
-<div id='interest'>
-  <h2>About Me</h2><p>Take you for taking the time to look at my site. My main hobbies are computers, be it learning computer languages 
+<h2 class="trigger"><%= link_to 'About Me', '#' %></h2>
+<div class="toggle_container">
+<div id="interest" class="toggle_block">
+  <p>Take you for taking the time to look at my site. My main hobbies are computers, be it learning computer languages 
     or tinkering with some hardware, basketball, and reading.  You can either catch me at Barnes Nobles either reading or 
     messing with my computer or you can catch me at the park playing basketball. </p>
 </div>
-
-<div id="education">
-  <h2>Education</h2><p>I graduated from Texas State with a Bachelor of Science in Computer Science with a minor in Mathamatics back in 2007</p>
 </div>
 
-<div id="jobs">
-  <h2>Job History</h2>
+<h2 class="trigger"><%= link_to 'Education', '#' %></h2>
+<div class="toggle_container">
+<div id="education" class="toggle_block">
+  <p>I graduated from Texas State with a Bachelor of Science in Computer Science with a minor in Mathamatics back in 2007</p>
+</div>
+</div>
+
+<h2 class="trigger"><%= link_to 'Jobs', '#' %></h2>
+<div class="toggle_container">
+<div id="jobs" class="toggle_block">
   <ul class="jobs">
     <li><h4><%= link_to 'Neubus', 'http://www.neubus.com', :target => "_blank" %> (2006-2010)</h4>
       <p>I started as an intern and then was hired as a Software Developer once I graduated. As a Software Developer, I was in 
@@ -27,9 +34,13 @@
     </li>
   </ul>
 </div>
+</div>
 
-<div id="projects">
+<h2 class="trigger"><%= link_to 'Projects', '#' %></h2>
+<div class="toggle_container">
+<div id="projects" class="toggle_block">
   
+</div>
 </div>
 
 
