@@ -484,4 +484,17 @@ ul.jobs{
     text-align: center;
 }
 
+div#interest, #education, #jobs, #projects {
+    padding: 4px;
+background: #EAEAEA;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border: 1px solid #CCC;
+line-height: 20px;
+margin: 15px;
+text-shadow: 1px 1px 1px #CCC;
+    
+}
+
 

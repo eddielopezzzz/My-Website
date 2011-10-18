@@ -5,21 +5,21 @@ $(document).ready(function(){
 		$('.jobs').hide();
 	}
 	HideAll();
-	$('#interest').mouseover(function() {
+	$('#interest').click(function() {
 		HideAll();
 		$(this).children().next().fadeIn('slow',function() {
                         
                 });
 	});
 
-	$('#education').mouseover(function() {
+	$('#education').click(function() {
 		HideAll();
 		$(this).children().next().fadeIn('slow',function() {
                         
                 });
 	});
 
-	$('#jobs').mouseover(function() {
+	$('#jobs').click(function() {
 		HideAll();
 		$('.jobs').fadeIn('slow',function() {
                         
