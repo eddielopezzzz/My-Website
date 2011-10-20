@@ -18,18 +18,21 @@
 <div class="toggle_container">
 <div id="jobs" class="toggle_block">
   <ul class="jobs">
-    <li><h4><%= link_to 'Neubus', 'http://www.neubus.com', :target => "_blank" %> (2006-2010)</h4>
+      <li><h4><%= link_to 'Neubus', 'http://www.neubus.com', :target => "_blank" %>(2006 - 2010)</h4>
       <p>I started as an intern and then was hired as a Software Developer once I graduated. As a Software Developer, I was in 
       charge of creating new applications, debugging current applications and providing technical support to many state agencies. </p>
     </li>
-    <li><h4><%= link_to 'Pervasive', 'http://www.pervasive.com', :target => "_blank"%> (2010 - Present)</h4>
+    <li><h4><%= link_to 'Pervasive', 'http://www.pervasive.com', :target => "_blank" %>(2010 - Present)</h4>
       <p>At Pervasive, I am a Web Developer who currently works DNN. I design modules written in C# to be used through out the company's
       websites. I implement Jquery, HTML and CSS changes as well to current websites on a daily basis. I've worked with Database migrations
       involving data from a Drupal site to a DNN site.</p><p> Some of the websites I mainly work on are:
       <ul>
-        <li><%= link_to 'Solutions', 'http://www.pervasive.com/solutions', :target => "_blank" %></li>
-        <li><%= link_to 'Galaxy', 'http://www.pervasive.com/galaxy', :target => "_blank" %></li>
-        <li><%= link_to 'Tools', 'http://www.pervasive.com/tools', :target => "_blank" %></li>
+        <li><%= link_to 'Solutions', 'http://www.pervasive.com/solutions', :target => "_blank", :class => 'screenshot',
+            :rel => '../images/solutions.png', :title => 'My primary focus at Pervasive' %></li>
+        <li><%= link_to 'Galaxy', 'http://www.pervasive.com/galaxy', :target => "_blank", :class => 'screenshot',
+            :rel => '../images/galaxy.png', :title => 'Check out Galaxy!!'%></li>
+        <li><%= link_to 'Tools', 'http://www.pervasive.com/tools', :target => "_blank", :class => 'screenshot' ,
+            :rel => '../images/tools.png' %></li>
       </ul></p>
     </li>
   </ul>

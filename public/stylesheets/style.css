@@ -582,3 +582,11 @@ margin-right: 45px;
     color: #ffffff;
 }
 
+#screenshot{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+	}
