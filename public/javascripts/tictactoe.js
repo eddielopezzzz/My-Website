@@ -55,7 +55,7 @@ var TicTacToe = {
       $('.board').css('opacity','0.2');
 
       // Button for playing again.
-      $("#play_again").click(function () { TicTacToe.restartGame();  });
+      $(".reset").click(function () { TicTacToe.restartGame();  });
       $("#menu").show();
       this.win = false;
 
@@ -93,4 +93,6 @@ $(document).ready(function() {
 
     // Start a game!
     TicTacToe.restartGame();
+    
+    $(".reset").click(function () { TicTacToe.restartGame();  });
 });

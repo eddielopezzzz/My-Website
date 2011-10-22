@@ -12,3 +12,5 @@ gem 'mail_form'
 gem 'gravatar_image_tag', '0.1.0'
 
 gem 'jquery-rails'
+
+gem 'matenia-tumblr-api'

@@ -508,6 +508,7 @@ h2.trigger {
 	font-size: 2em;
 	font-weight: normal;
 	float: left;
+        cursor: pointer;
 }
 h2.trigger a {
 	color: #fff;
@@ -568,12 +569,15 @@ table.board td {
 }
 
 .reset {
-    float: right;
+float: right;
 font-size: 40px;
-border-radius: 3px;
+border-radius: 10px;
 border: 1px solid #CCC;
 padding: 4px;
 margin-right: 45px;
+margin-top:15px;
+background-color: #EAEAEA;
+padding:10px;
 }
 
 .reset:hover{
