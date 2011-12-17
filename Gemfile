@@ -14,5 +14,8 @@ gem 'gravatar_image_tag', '0.1.0'
 gem 'jquery-rails'
 
 gem 'matenia-tumblr-api'
+<<<<<<< HEAD
 
 gem 'contact_us', :git => 'git://github.com/sch1zo/contact_us.git'
+=======
+>>>>>>> c50e685c08f9fc7452cd06cb74cfe3829c594bb2
