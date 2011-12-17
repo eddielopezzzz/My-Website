@@ -1,0 +1,41 @@
+/* 
+    Document   : social
+    Created on : Sep 21, 2011, 10:31:23 PM
+    Author     : elopez
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.FBConnectButton_Small{background-position:-5px -232px !important;border-left:1px solid #1A356E}
+.FBConnectButton_Text{margin-left:12px !important;padding:2px 3px 3px !important}
+#ShareSidebar{top: 10%;
+              width:69px;
+              Left: 0 !important;
+              overflow:hidden;
+              position: fixed;
+              z-index: 100000;
+              text-align:center;
+              line-height:normal;
+              _position: absolute;
+              font-size:9px;}
+#ShareSidebar a,#ShareSidebar a:hover,#ShareSidebar a:visited{text-decoration:none;font-size:9px;}
+iframe#facebook_like {
+    float:left; 
+    margin:10px 0 0 12px;
+    height:61px;
+    border:none; 
+    overflow:hidden;
+}
+
+div.social_stuff{
+    float:left; margin:10px 0 0 10px;
+}
+
+div.social_stuff_more{
+    float:left; margin:10px 0 0 7px;
+}

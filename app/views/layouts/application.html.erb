@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website</title>
+  <%= render 'layouts/stylesheets' %>
+  <%= javascript_include_tag :all %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+  <div id="container">
+    <%= render 'layouts/header' %>
+    <div id="wrapper">
+      <div id="content">
+        <section class="round">
+          <%= yield %>
+        </section>
+      </div>
+      <div id="sidebar">
+        <%= render 'layouts/sidebar' %>
+      </div>
+    </div>
+    <%= render 'layouts/footer' %>
+  </div>
+  <%= render 'layouts/social' %>
+</body>
+</html>
