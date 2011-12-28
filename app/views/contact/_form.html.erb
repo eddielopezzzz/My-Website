@@ -1,0 +1,25 @@
+<h2>Fill out the form below and I will try to reply as soon as possible. Thanks.</h2>
+<%= form_for @message, :url => contact_path, :remote => true do |form| %>
+<div class="err_msgs">
+</div>
+	<label class="input">
+		<span style="color: rgb(0, 0, 0); ">Name</span>
+		<%= form.text_field :name %>
+	</label>
+	<label class="input"> 
+		<span style="color: rgb(0, 0, 0); ">Email</span>
+		 <%= form.text_field :email %> 
+	</label>
+	<label class="input"> 
+		<span style="color: rgb(0, 0, 0); ">Subject</span> 
+		<%= form.text_field :subject %> 
+	</label>
+	<label class="input"> 
+		<span style="color: rgb(0, 0, 0); ">Please enter your comments/questions</span> 
+		<%= form.text_area :body, :class => 'comments_txtarea' %> 
+	</label>
+	<div class="field">
+		<%= recaptcha_tags :ajax => true  %>
+	</div>
+	<%= form.submit "Send", :class => "action_button" %>
+<% end %>

@@ -1,0 +1,43 @@
+.input span {
+position: absolute;
+padding: 7px;
+margin-left: 3px;
+color: #CCC;
+float: none;
+}
+
+.input input, .input textarea, .input select {
+position: relative;
+margin:  0 25px 0 0;
+border-width: 1px 1px 1px 5px;
+padding: 6px 6px 8px 6px;
+background: transparent;
+font: inherit;
+}
+
+.input{
+text-align: left;
+margin: 10px 0;
+background: white;
+float: left;
+clear: both;
+font-size: 14px!important;
+}
+
+input, :focus
+{
+    outline: 0;
+}
+
+input:focus
+{
+    border: 1px solid #111;
+-webkit-box-shadow: 0px 0px 7px #6677ff, inset 0px 1px 3px #999999;
+-moz-box-shadow: 0px 0px 7px #6677ff, inset 0px 1px 3px #999999;
+box-shadow: 0px 0px 7px #6677ff, inset 0px 1px 3px #999999;
+-webkit-animation-name: 'input_glow';
+-webkit-animation-duration: .7s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction: alternate;
+-webkit-animation-timing-function: ease-in-out;
+}
