@@ -2,9 +2,6 @@
 <div id="error_explanation">
 	<h2><%= pluralize(@message.errors.count, "error")%> prohibited this 
 		<%= @message.class.to_s.underscore.humanize.downcase %> from being saved:</h2>
-	<p>
-		There were problems with the following fields:
-	</p>
 	<ul>
 		<% @message.errors.full_messages.each do |msg| %>
 		<li>

@@ -1,1 +1,4 @@
+$("#flash_notice").remove();
+$(".err_msgs").before('<div id="flash_notice"><%= escape_javascript(flash.delete(:notice)) %></div>');
 $(".err_msgs").html("<%= escape_javascript render("shared/error_messages") %>");
+

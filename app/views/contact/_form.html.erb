@@ -16,10 +16,10 @@
 	</label>
 	<label class="input"> 
 		<span style="color: rgb(0, 0, 0); ">Please enter your comments/questions</span> 
-		<%= form.text_area :body, :class => 'comments_txtarea' %> 
+		<%= form.text_area :body, :class => 'comments_txtarea', :rows => 10 %> 
 	</label>
 	<div class="field">
 		<%= recaptcha_tags :ajax => true  %>
 	</div>
-	<%= form.submit "Send", :class => "action_button" %>
+	<%= form.submit "Send", :class => "action_button"%>
 <% end %>

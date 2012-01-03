@@ -11,15 +11,15 @@ class ContactController < ApplicationController
       if @message.valid? and verify_recaptcha(:model => @message, 
           :message => "Please re-enter the words from the image again!")
         Notifier.new_message(@message).deliver
-        format.html { redirect_to(root_path, :notice => "Message was sent successfully")}
+        flash[:notice] = "Message was sent successfully"
+        format.html { redirect_to root_path }
         format.js
       else
+        flash[:notice] = "There were errors sending your message."
         format.html { render :action => "new" }
         format.js  {
             render :template=>"contact/create.js.erb", 
-            :locals=>{
-            :item => @message, 
-            :notice => 'There were errors sending your message.'
+            :locals=>{ :item => @message, :notice => 'There were errors sending your message.'
             }}
       end
     end
