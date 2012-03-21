@@ -13,7 +13,7 @@ class ContactController < ApplicationController
         Notifier.new_message(@message).deliver
         flash[:notice] = "Message was sent successfully"
         format.html { redirect_to root_path }
-        format.js
+        format.js 
       else
         flash[:notice] = "There were errors sending your message."
         format.html { render :action => "new" }

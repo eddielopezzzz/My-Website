@@ -73,6 +73,7 @@ blockquote {
     float: left; 
     overflow: hidden; 
     background: #d6ded4 url(../images/sidebar-bg.gif) repeat-y top right; 
+    margin-top: 60px;
 }
 
 
@@ -133,6 +134,13 @@ blockquote {
 
 /* Navigation
 -------------------------------------------------------------------*/
+
+.main_menu{
+display: block;
+position: fixed;
+top: 0;	
+
+}
 #nav { 
     width: 900px;
     float: left; 
